@@ -18,7 +18,9 @@ curl -sSL http://bit.ly/2ysbOFE | bash -s 1.2
 Open terminal and run these command :
 
 cd path/to/repository/folder
+
 cd network
+
 ./buildERC20TokenNetwork.sh up
 
 It created the required certificates for each entity of HyperLedger using the crypto-config.yaml file, in a folder named crypto-config within your networks directory. Check it out!
